@@ -145,13 +145,12 @@ $capi = new GoogleCalendarApi();
 									&nbsp;
 									<a href="edit-event.php?calendar=<?php echo $calendarID; ?>&event=<?php echo $eventObj2['id']; ?>&summary=<?php echo $eventObj2['summary']; ?>&start_time=<?php echo $start_time; ?>&end_time=<?php echo $end_time; ?>&event_date=<?php echo $start_time; ?>">
 										Edit
-									</a> | 
+									</a> |
 									 <form>
 									 <input type="hidden" id="calendar" value="<?php echo $calendarID; ?>">
 									 <input type="hidden" id="event-id" value="<?php echo $eventObj2['id']; ?>">
 									 <a href="#" id="delete-event">Delete</a>
 									 </form>
-									</div>
 								</li>
 								<?php
 							}
